@@ -4,11 +4,19 @@ t = Turtle()
 t.shape("turtle")
 t.color("green")
 
-for _ in range (10):
-    t.fd(10)
-    t.penup()
-    t.fd(10)
-    t.pendown()
+t.left(90)
+t.fd(150)
+t.penup()
+t.back(75)
+t.right(90)
+t.pendown()
+t.fd(90)
+t.left(90)
+t.fd(75)
+t.back(150)
+
+
+
 
 
 
