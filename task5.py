@@ -1,0 +1,41 @@
+from turtle import Turtle, Screen
+
+my_turtle = Turtle()
+
+my_turtle.shape("turtle")
+my_turtle.color("green")
+# my_turtle.fd(100)
+# my_turtle.right(90)
+# my_turtle.fd(100)
+# my_turtle.right(90)
+# my_turtle.fd(100)
+# my_turtle.right(90)
+# my_turtle.fd(100)
+# my_turtle.right(90)
+
+for i in range(4):
+    my_turtle.fd(100)
+    my_turtle.right(90)
+
+
+for i in range(5):
+    my_turtle.fd(100)
+    my_turtle.right(72)
+
+
+for i in range(6):
+    my_turtle.fd(100)
+    my_turtle.right(60)    
+
+
+for i in range(7):
+    my_turtle.fd(100)
+    my_turtle.right(51.2) 
+
+
+for i in range(8):
+    my_turtle.fd(100)
+    my_turtle.right(45)     
+    
+
+
